@@ -24,7 +24,8 @@ export const Register = () => {
         }
 
         try{
-            const res = await axios.post('./users', form);
+            const res = await axios.post(`${import.meta.env.VITE_API_URL}/users`, form);
+
             alert('user registered');
             console.log(res.data);
         }catch (err){

@@ -26,7 +26,8 @@ export const Login = () => {
 
     try {
       // Sending login request to backend
-      const res = await axios.post("/login", form);
+      const res = await axios.post(`${import.meta.env.VITE_API_URL}/login`, form);
+
 
       // Storing token in localStorage
       localStorage.setItem("token", res.data.token);
