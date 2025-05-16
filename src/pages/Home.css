@@ -1,0 +1,141 @@
+*{
+  max-width: 100%;
+}
+.hero {
+    background-image: url(../assets/homepage.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 20px;
+  }
+  
+  .hero-content {
+    max-width: 7000px;
+  }
+  
+  .hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 25px;
+  }
+  
+  .hero-content p {
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+  }
+  
+  .hero-buttons {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 150px;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #e50914;
+    color: white;
+  }
+  
+  .btn-outline {
+    background-color: transparent;
+    color: white;
+  }
+  
+  /* Movie Rows */
+.row {
+  padding: 30px 60px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.movie-row {
+  display: flex;
+  overflow-x: auto;
+  gap: 35px;
+  padding-top: 30px;
+  
+}
+
+.movie-card{
+  width: 100%;
+  height: auto;
+}
+
+.movie-card img {
+  max-width: 200px;
+  height: 300px;
+  border-radius: 5px;
+}
+
+.movie-card img:hover{
+  transform: scale(1.06);
+  border-radius: 5px;
+  transition: 0.4s ease-in-out;
+}
+
+.movie-card p {
+  margin-top: 15px;
+  font-size: 0.9rem;
+}
+
+/* Reason cards */
+.row-2 {
+  padding: 30px 60px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.reason-row {
+  display: flex;
+  overflow-x: auto;
+  max-width: 1400px;
+  padding-left: 10px ;
+  height: 350px;
+  gap: 50px;
+  padding-top: 30px;
+  
+}
+.reason-row h1{
+  font-size: 1.3rem;
+}
+
+.reason-row p{
+
+  padding: 10px;
+  font-size: 1.01rem;
+}
+
+.reason-card{
+  padding: 20px;
+  width: 300px;
+  max-height: 300px;
+  border: 2px solid rgb(193, 176, 176);
+  background: #5c1010;
+background: linear-gradient(90deg,rgb(93, 10, 10) 0%, rgb(204, 3, 3) 84%, rgb(32, 208, 214) 105%);
+box-shadow: 0px 0px 15px 2px red;
+}
+
+.reason-card:hover{
+  transform: scale(1.04);
+  transition: 2 ease-out;
+}
+
+.reason-card h1{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.reason-card p {
+margin-top: 40px;
+margin-left: 40px;
+}

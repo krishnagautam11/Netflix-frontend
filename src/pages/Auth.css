@@ -1,0 +1,46 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+background-image: url(../assets/homepage.jpg);
+background-position: center;
+background-size: contain;
+}
+
+
+.auth-container{
+    max-width: 600px;
+    margin: 295px auto;
+    margin-top: 200px;
+    padding: 20px;
+    background-color: #111;
+    color: white;
+    border-radius: 8px;
+  text-align: center;
+  
+}
+
+.auth-container input{
+display: block;
+width: 100%;
+padding: 10px;
+margin: 10px 0;
+background-color: #222;
+color: white;
+border: 1px solid #333;
+}
+
+.auth-container button {
+    background-color: #e50914;
+    border: none;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.last{
+    background-color: black;
+}

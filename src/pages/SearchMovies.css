@@ -1,0 +1,28 @@
+.search-page {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .search-page input {
+    padding: 8px;
+    margin-right: 8px;
+  }
+  
+  .results {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .movie-card {
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .movie-card img {
+    border-radius: 10px;
+    width: 150px;
+    height: auto;
+  }
+  
